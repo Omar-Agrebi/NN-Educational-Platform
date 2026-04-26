@@ -1,0 +1,27 @@
+# Neural Forge - Root Requirements
+# This file pins all shared/known-good versions.
+#
+# Install backend:  pip install -r backend/requirements.txt
+# Install frontend: pip install -r frontend/requirements.txt
+#
+# ⚠️  pydantic and pydantic-core MUST always be upgraded together.
+#     Never run: pip install pydantic-core separately.
+
+# === BACKEND ===
+fastapi==0.111.0
+uvicorn==0.29.0
+starlette==0.37.2
+pydantic==2.13.3
+pydantic-core==2.46.3
+python-multipart==0.0.26
+python-dotenv==1.2.2
+
+# === FRONTEND ===
+streamlit==1.56.0
+plotly==6.7.0
+pandas==3.0.2
+
+# === SHARED ===
+numpy==2.4.4
+requests==2.33.1
+httpx==0.28.1

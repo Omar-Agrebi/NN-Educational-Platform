@@ -1,0 +1,17 @@
+# Backend dependencies - Neural Forge API
+# Run with: python -m uvicorn main:app --reload
+# Or:       python main.py
+
+fastapi==0.111.0
+uvicorn==0.29.0
+starlette==0.37.2
+
+# Pydantic - these two MUST be installed together, never upgrade separately
+pydantic==2.13.3
+pydantic-core==2.46.3
+
+numpy==2.4.4
+requests==2.33.1
+httpx==0.28.1
+python-dotenv==1.2.2
+python-multipart==0.0.26

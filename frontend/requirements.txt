@@ -1,0 +1,11 @@
+# Frontend dependencies - Neural Forge Streamlit UI
+# Run with: python -m streamlit run app.py
+# NOTE: Use "python -m streamlit" instead of "streamlit" — the Scripts folder
+#       may not be on PATH in Windows when installed as a user package.
+
+streamlit==1.56.0
+plotly==6.7.0
+pandas==3.0.2
+numpy==2.4.4
+requests==2.33.1
+httpx==0.28.1
